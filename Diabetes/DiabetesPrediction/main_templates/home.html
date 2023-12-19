@@ -1,0 +1,70 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>MEDiTECH</title>
+            <link rel="icon" href="A:\INNOTECH_2k24\logo-modified.png">           
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        </head>
+  <style>
+    .a2{background-image: url("{% static 'A:\INNOTECH_2k24\Diabetes\DiabetesPrediction\static\DiabetesPrediction\images\predict.jpg' %}");
+    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+       }
+       
+  </style>
+        
+
+
+
+ <body class="a2 d-grid gap-2 col-6 mx-auto" height="40%" >
+     
+    <div style="align-self: center;
+    position: fixed;
+    left: 45%;
+    top:45%;
+    
+    "
+    >
+        <form action="predict" >
+            <input type = "submit" value=" Lets get started" class="btn btn-primary  btn-lg" >
+        </form>  
+    </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+           
+
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Virtual Assistant",
+      "botConversationDescription": "Healthcare Chatbot",
+      "botId": "05dce763-75e8-4bd9-8305-b59ad7ce3194",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "05dce763-75e8-4bd9-8305-b59ad7ce3194",
+      "webhookId": "55a628ef-0b19-46fb-89ed-d6344b98b062",
+      "lazySocket": true,
+      "themeName": "prism",
+      "botName": "Virtual Assistant",
+      "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RVT2gEfme1oZmBlLYnSJQMu4NWZS_JX5Pw&usqp=CAU",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/2a2289ee-51e3-4eaa-ad2e-31e8c844a2f9/v59974/style.css",
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+     </body>
+</html>

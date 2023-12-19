@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEDiTECH</title>
+    <link rel="icon" href="logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="test.css">
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-weight: bolder; font-family: Georgia, 'Times New Roman', Times, serif;"
+                href="#">MEDiTECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BODY CHECKUP</a></li>
+                            <li><a class="dropdown-item" href="#">MENTAL CHECKUP</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="BMI1.html" >BMI CALCULATOR</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="test.html" style="font-weight: bolder;" aria-disabled="true">TEST REPORT ANALYSIS</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <a href="#"
+                        class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="55.jpeg.jpg" alt="AGNIK" width="35" height="35" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small shadow">
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search" style="margin-right:5px;">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <nav class="navbar" style="background-color: rgb(14, 104, 139);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+                style="color: white; font-weight: bolder; font-family:Georgia, 'Times New Roman', Times, serif;">
+                <img src="logo.jpg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top"
+                    style="border-radius:50px ;">
+                    Diabetes Prediction
+            </a>
+        </div>
+    </nav>
+    <br>
+    <h2
+        style="text-align-last: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:  rgb(14, 104, 139);">
+        Please Enter The Following Information: </h2>
+        <br>
+
+    <form class="row g-3" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left:20px; margin-right: 20px;">
+        <div class="col-md-6">
+            <label for="Pregnancies" class="form-label">Pregnancies:</label>
+            <select id="Pregnancies" class="form-select">
+              <option selected>Choose...</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        
+        <div class="col-md-6">
+            <label for="Glucose level" class="form-label">Fasting Blood Sugar Level(Glucose level) (in mg/dL):</label>
+            <input type="number" class="form-control" id="Glucose level">
+        </div>
+        <div class="col-md-6">
+            <label for="Systolic Pressure" class="form-label">Blood Pressure (Systolic Pressure) (in mmHg):</label>
+            <input type="number" class="form-control" id="Systolic Pressure">
+        </div>
+        <div class="col-md-6">
+            <label for="Diastolic Pressure" class="form-label">Blood Pressure (Diastolic Pressure) (in mmHg):</label>
+            <input type="number" class="form-control" id="Diastolic Pressure">
+        </div>
+        <div class="col-md-6">
+            <label for="Skin Thickness" class="form-label">Skin Thickness(in mm):</label>
+            <input type="number" class="form-control" id="Skin Thickness">
+        </div>
+        <div class="col-md-6">
+            <label for="Insulin" class="form-label">Insulin level(in µU/mL):</label>
+            <input type="number" class="form-control" id="Insulin">
+        </div>
+        <div class="col-md-6">
+            <label for="BMI" class="form-label">BMI:</label>
+            <input type="number" class="form-control" id="BMI">
+        </div>
+        <div class="col-md-6">
+            <label for="DPF" class="form-label">Diabetes Pedigree Function:</label>
+            <input type="number" class="form-control" id="DPF">
+        </div>
+        <div class="col-md-6">
+            <label for="age" class="form-label">Age:</label>
+            <input type="number" class="form-control" id="age">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <br>
+    <h5 style="text-align-last: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:  rgb(14, 104, 139);">RESULT:</h5>
+    <br>
+    <div class="col-md-6" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left:20px; margin-right: 20px;">
+        <label for="range" class="form-label">Feedback:</label>
+        <p id="range"></p>
+      </div>
+
+
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <img src="logo.jpg" width="30" height="30" class="bi" alt="" style="border-radius: 50%;">
+
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 MEDiTECH,All Rights Reserved.</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-instagram bi" width="24"
+                            height="24" aria-hidden="true"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-twitter bi" aria-hidden="true"
+                            width="24" height="24"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-facebook-square bi" width="24"
+                            height="24" aria-hidden="true"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Virtual Assistant",
+      "botConversationDescription": "Healthcare Chatbot",
+      "botId": "05dce763-75e8-4bd9-8305-b59ad7ce3194",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "05dce763-75e8-4bd9-8305-b59ad7ce3194",
+      "webhookId": "55a628ef-0b19-46fb-89ed-d6344b98b062",
+      "lazySocket": true,
+      "themeName": "prism",
+      "botName": "Virtual Assistant",
+      "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RVT2gEfme1oZmBlLYnSJQMu4NWZS_JX5Pw&usqp=CAU",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/2a2289ee-51e3-4eaa-ad2e-31e8c844a2f9/v59974/style.css",
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+</body>
+
+</html>

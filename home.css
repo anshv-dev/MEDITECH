@@ -1,0 +1,47 @@
+.a1{
+    margin-left: 55px;
+}
+.a2{
+    margin-left: 55px;
+}
+.team
+{
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.team button
+{
+    border-radius: 2rem;
+    background-color: white;
+    width: 60px;
+    color: green;
+}
+.about
+{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.about h6{
+    color: green;
+}
+.col h3{
+    color: green;
+    margin-top: 20PX;
+}
+.col .text
+{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.intro {
+    text-align: center;  
+}
+
+
